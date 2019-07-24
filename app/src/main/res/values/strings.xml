@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AiLaTrieuPhu</string>
+    <string name="txt_batdau">Bắt đầu</string>
+    <string name="txt_xephang">Xếp hạng</string>
+    <string name="txt_huongdan">Hướng dẫn</string>
+    <string name="txt_thoat">Thoát</string>
+    <string name="txt_ok">Ok</string>
+    <string name="txt_traloi">Câu trả lời của tôi là:</string>
+    <string name="txt_giatriphanthuong">Bạn sẽ ra về với phần thưởng trị giá</string>
+    <string name="txt_luudiem">Lưu điểm</string>
+    <string name="hint_ten">Nhập họ tên</string>
+    <string name="txt_luu">Lưu điểm</string>
+    <string name="txt_huongdan1">Trả lời 15 câu hỏi của chương trình, mỗi câu hỏi có 4 đáp an với độ khó tăng dần.</string>
+    <string name="txt_huongdan2">Có 4 sự trợ giúp:</string>
+    <string name="txt_5050">Nhờ máy tính bỏ đi 2 phương án sai</string>
+</resources>

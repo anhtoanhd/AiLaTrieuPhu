@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tvTitle"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:text="@string/txt_xephang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@id/tvTitle"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rvHighScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_below="@id/rvHighScore"
+            android:text="@string/txt_ok"
+            android:layout_margin="30dp"
+            android:background="@drawable/bg_button_ok"
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</ScrollView>

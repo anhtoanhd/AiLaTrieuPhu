@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_dialog">
+    <org.eazegraph.lib.charts.BarChart
+        android:id="@+id/bcAudience"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:padding="10dp"
+        app:egFixedBarWidth="true"
+        app:egBarWidth="20dp"
+        app:egLegendHeight="40dp"/>
+    <Button
+        android:layout_margin="20dp"
+        android:textColor="@color/colorWhite"
+        android:text="@string/txt_ok"
+        android:background="@drawable/bg_button_ok"
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:background="@null"
+            android:scaleType="centerInside"
+            android:id="@+id/btnSound"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_sound"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:id="@+id/btnBatDau"
+            android:text="@string/txt_batdau"
+            style="@style/ButtonMain"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/btnXepHang"
+            android:text="@string/txt_xephang"
+            style="@style/ButtonMain"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/btnHuongDan"
+            android:text="@string/txt_huongdan"
+            style="@style/ButtonMain"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <Button
+            android:id="@+id/btnThoat"
+            android:text="@string/txt_thoat"
+            style="@style/ButtonMain"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+</LinearLayout>
